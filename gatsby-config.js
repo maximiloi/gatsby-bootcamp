@@ -6,16 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'First Gatsby.js site!',
+    author: 'maximiloi',
+  },
   plugins: [
-    {
-      resolve: "gatsby-plugin-sass",
-      options: {
-        useResolveUrlLoader: {
-          options: {
-            sourceMap: true, //default is false
-          },
-        },
-      },
-    },
-  ],
+    'gatsby-plugin-sass'
+  ]
 };
