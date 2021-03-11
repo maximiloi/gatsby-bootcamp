@@ -1,17 +1,12 @@
 import React from 'react';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 
 export default function AboutPage() {
     return (
-        <div>
-            <Header />
-
+        <Layout>
             <h2>About</h2>
             <p>My about page</p>
-
-            <Footer />
-        </div>
+        </Layout>
     )
 }

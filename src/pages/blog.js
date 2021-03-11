@@ -1,17 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer'
+import Layout from '../components/Layout';
 
 export default function BlogPage() {
     return (
-        <div>
-            <Header />
-
+        <Layout>
             <h2>Blog</h2>
             <p>First post</p>
-
-            <Footer />
-        </div>
+        </Layout>
     )
 }

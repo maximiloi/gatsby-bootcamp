@@ -1,18 +1,13 @@
 import React from 'react';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 
 export default function ContactPage() {
     return (
-        <div>
-            <Header />
-
+        <Layout>
             <h2>Contact</h2>
             <p>telegram: @maximiloi</p>
             <p>vk: <a href="https://vk.com/maximiloi">@maximiloi</a></p>
-
-            <Footer />
-        </div>
+        </Layout>
     )
 }

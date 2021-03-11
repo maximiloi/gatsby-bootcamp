@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import '../css/index.scss';
 
 import Header from './Header';
 import Footer from './Footer';
